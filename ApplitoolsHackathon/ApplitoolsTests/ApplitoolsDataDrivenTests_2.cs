@@ -7,8 +7,8 @@ namespace ApplitoolsHackathon.ApplitoolsTests
     public class ApplitoolsDataDrivenTests_2 : Pages.Utils.Start
     {        
         [TestCase("", "", TestName = "LoginWithEmptyUsernameAndPassword")]
-        [TestCase("", "P1ncell0", TestName = "LoginWithEmptyUsername")]
-        [TestCase("rai@rms.ro", "", TestName = "LoginWithEmptyPassword")]
+        [TestCase("", "Appl1t00ls2019", TestName = "LoginWithEmptyUsername")]
+        [TestCase("raluca.suditu@gmail.com", "", TestName = "LoginWithEmptyPassword")]
         [Category("Applitool")]
         public void LoginInvalidCredendials(string username, string password)
         {                        

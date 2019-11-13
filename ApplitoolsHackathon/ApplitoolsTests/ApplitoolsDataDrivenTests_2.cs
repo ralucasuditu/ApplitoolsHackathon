@@ -20,8 +20,7 @@ namespace ApplitoolsHackathon.ApplitoolsTests
             /* There are several bugs here like:            
                 - error message not displayed on a line for all cases
                 - error message not displayed if only a correct username is entered and submit is performed */
-
-            //You can set whatever batch name here; by default it is set to take the testname
+            
             MyEye.CheckWindow();
         }
 

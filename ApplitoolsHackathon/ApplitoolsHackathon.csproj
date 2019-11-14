@@ -103,7 +103,9 @@
     <Compile Include="ApplitoolsTests\ApplitoolsLoginTests_1.cs" />
     <Compile Include="ApplitoolsTests\ApplitoolsDataDrivenTests_2.cs" />
     <Compile Include="ClasicalTests\ClasicalDynamicTests_5.cs" />
-    <Compile Include="ClasicalTests\DataDrivenTests_2.cs" />
+    <Compile Include="ClasicalTests\ClasicalCanvas_4.cs" />
+    <Compile Include="ClasicalTests\ClasicalTableSortTests_3.cs" />
+    <Compile Include="ClasicalTests\ClasicalDataDrivenTests_2.cs" />
     <Compile Include="ClasicalTests\ClasicalLoginTests_1.cs" />
     <Compile Include="Pages\Pages\MainPage.cs" />
     <Compile Include="Pages\Pages\Login.cs" />

@@ -4,7 +4,7 @@ namespace ApplitoolsHackathon.ClasicalTests
 {
     //this uses the browsertype = chrome, value that is taken from app.config <add key="BrowserType" value="chrome" />    
     [TestFixture]
-    public class DataDrivenTests_2 : Pages.Utils.Start
+    public class ClasicalDataDrivenTests_2 : Pages.Utils.Start
     {
         [TestCase("", "", "Please enter both username and password", TestName = "Check that validation is triggered when username/password are not entered")]
         [TestCase("rai@rms.ro", "", "Password must be present", TestName = "Check that validation is triggered password is not entered")]

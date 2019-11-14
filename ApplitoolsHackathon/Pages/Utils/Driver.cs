@@ -95,7 +95,7 @@ namespace ApplitoolsHackathon.Pages
 
                 case "eyes":
                     //we will batch tests by class name
-                    BatchInfo batch = new BatchInfo(GetClassName);
+                    BatchInfo batch = new BatchInfo("GetClassName");
                     ClassicRunner runner = new ClassicRunner();
                     MyEye = new Eyes(runner)
                     {
@@ -103,7 +103,7 @@ namespace ApplitoolsHackathon.Pages
                         Batch = batch
                     };
                     Instance = new ChromeDriver();
-                    Instance = MyEye.Open(Instance, "Applitools", testName, new Size(1366, 768));
+                    Instance = MyEye.Open(Instance, "Applitools", testName, new Size(1366, 768));                    
                     break;                    
             }           
         }

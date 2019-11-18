@@ -17,8 +17,8 @@ There are 5 files for each exercise: ClasicalLoginTests_1.cs, ClasicalDataDriven
 - tests that are using 'applitools'  (tested applition = V2): ApplitoolsTests
 There are 5 files for each exercise: ApplitoolsLoginTests_1.cs, ApplitoolsDataDrivenTests_2.cs, ApplitoolsTableSortTests_3.cs, ApplitoolsCanvas_4.cs, ApplitoolsDynamicTests_5.cs.
 
-In order to run the ClasicalTests tests, "<add key="BrowserType" value="chrome" />" value should be set in the app.config
-In order to run the Applitools tests, "<add key="BrowserType" value="eyes" />" value sould be set in the app.config.y
+In order to run the ClasicalTests tests, "add key="BrowserType" value="chrome"" value should be set in the app.config
+In order to run the Applitools tests, "add key="BrowserType" value="eyes"" value sould be set in the app.config.y
 
 
 Enjoy!

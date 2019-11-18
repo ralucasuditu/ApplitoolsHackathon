@@ -1,6 +1,12 @@
 # ApplitoolsHackathon
 
-This is a solution written in C#.
+This project is an example of visual testing tool implementation in Selenium web driver. The solution uses:
+- Selenium WebDriver
+- Applitool
+- NUnit
+- Visual Studio for Clean/Build/Run
+- C# programming language
+
 In order to open it you need Visual Studio > 2017. Just open ApplitoolsHackathon.sln.
 
 The solution is using page-object design pattern.
@@ -17,8 +23,11 @@ There are 5 files for each exercise: ClasicalLoginTests_1.cs, ClasicalDataDriven
 - tests that are using 'applitools'  (tested applition = V2): ApplitoolsTests
 There are 5 files for each exercise: ApplitoolsLoginTests_1.cs, ApplitoolsDataDrivenTests_2.cs, ApplitoolsTableSortTests_3.cs, ApplitoolsCanvas_4.cs, ApplitoolsDynamicTests_5.cs.
 
-In order to run the ClasicalTests tests, "add key="BrowserType" value="chrome"" value should be set in the app.config
-In order to run the Applitools tests, "add key="BrowserType" value="eyes"" value sould be set in the app.config.
+
+Steps to run the tests:
+
+In order to run the ClasicalTests tests, "add key="BrowserType" value="chrome"" value should be set in the app.config and run the tests from Visual studio --> Test explorer.
+In order to run the Applitools tests, "add key="BrowserType" value="eyes"" value sould be set in the app.config and run the tests from Visual studio --> Test eplorer.
 
 
 Enjoy!

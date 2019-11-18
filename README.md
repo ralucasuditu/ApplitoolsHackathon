@@ -5,7 +5,7 @@ In order to open it you need Visual Studio > 2017. Just open ApplitoolsHackathon
 
 The solution is using page-object design pattern.
 
-'Pages' folder contains
+'Pages' folder contains:
 - the definition of the elements in the Login/Main Page: Pages --> Login.cs and Pages --> MainPage.cs
 - driver declaration: Utils --> Driver.cs
 - setup/teardown functions: Utils --> Start.cs

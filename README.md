@@ -4,9 +4,10 @@ This is a solution written in C#.
 In order to open it you need Visual Studio > 2017. Just open ApplitoolsHackathon.sln.
 
 The solution is using page-object design pattern.
-'Pages' folder containes
+
+'Pages' folder contains
 - the definition of the elements in the Login/Main Page: Pages --> Login.cs and Pages --> MainPage.cs
-- defines the driver declaration: Utils --> Driver.cs
+- driver declaration: Utils --> Driver.cs
 - setup/teardown functions: Utils --> Start.cs
 
 The tests are grouped in 2 folders:
